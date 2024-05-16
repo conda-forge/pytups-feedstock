@@ -1,5 +1,5 @@
 {% set name = "pytups" %}
-{% set version = "0.86.2" %}
+{% set version = "0.88.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ebf287438fa9ea2852d77304ff447862d9361a22ce076a04c06b722840bba4d3
+  sha256: b1f96fe41337ee65250e71f973fe3b91495a55dab42feebc0ff66ae00af1004a
 
 build:
   noarch: python
