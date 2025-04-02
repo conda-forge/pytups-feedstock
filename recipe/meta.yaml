@@ -16,15 +16,17 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
     - pytups
   requires:
+    - python {{ python_min }}
     - pip
   commands:
     - pip check
