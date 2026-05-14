@@ -1,5 +1,5 @@
 {% set name = "pytups" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6a04133724ee6218d272f7473573d041c88bc7266f86db3ec7705c0ee2757ace
+  sha256: aa924784763e7c46044d3672ed1b460ce41677e64238c83a54f61271eecd7df3
 
 build:
   noarch: python
